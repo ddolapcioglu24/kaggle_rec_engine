@@ -1,0 +1,52 @@
+{
+    "evaluation_metrics": {
+        "Random": {
+            "precision_at_k": 0.0018068535825545174,
+            "recall_at_k": 0.004559412550066756,
+            "hit_rate_at_k": 0.017860851505711317,
+            "map_at_k": 0.0012255098704994864,
+            "ndcg_at_k": 0.0030484033100998645,
+            "catalogue_coverage": 1.0,
+            "average_popularity_rank": 1001.6992211838007
+        },
+        "Most Popular": {
+            "precision_at_k": 0.0017445482866043614,
+            "recall_at_k": 0.005025630882328702,
+            "hit_rate_at_k": 0.017445482866043614,
+            "map_at_k": 0.0015755158684372945,
+            "ndcg_at_k": 0.003427239024756183,
+            "catalogue_coverage": 0.0065,
+            "average_popularity_rank": 5.685046728971963
+        },
+        "Item-item kNN": {
+            "precision_at_k": 0.00161993769470405,
+            "recall_at_k": 0.004147917387792777,
+            "hit_rate_at_k": 0.015991692627206646,
+            "map_at_k": 0.001138000186806002,
+            "ndcg_at_k": 0.002758755695007817,
+            "catalogue_coverage": 0.997,
+            "average_popularity_rank": 1028.2832398753894
+        },
+        "LightGBM 1:10": {
+            "precision_at_k": 0.0018068535825545174,
+            "recall_at_k": 0.0051217260874581744,
+            "hit_rate_at_k": 0.01806853582554517,
+            "map_at_k": 0.0013490795879907288,
+            "ndcg_at_k": 0.003233229554312756,
+            "catalogue_coverage": 0.6255,
+            "average_popularity_rank": 151.94169262720663
+        }
+    },
+    "selected_model": "LightGBM 1:10",
+    "config": {
+        "top_k": 10,
+        "split_date": "2024-10-01",
+        "random_seed": 42,
+        "knn_neighbors": 20,
+        "negative_sampling_ratio": 10,
+        "lightgbm_n_estimators": 100,
+        "lightgbm_learning_rate": 0.05,
+        "lightgbm_num_leaves": 31
+    },
+    "batch_runtime_seconds": 16.484250333014643
+}
