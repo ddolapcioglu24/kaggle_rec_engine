@@ -1,4 +1,4 @@
-# Recommendation Engine
+# Kaggle Recommendation Engine
 
 ## Dataset Schema
 
