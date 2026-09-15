@@ -1,4 +1,4 @@
-# Recommendation Engine Project Write-Up
+# Kaggle Recommendation Engine Project Write-Up
 
 ## 1. Task Definition
 
